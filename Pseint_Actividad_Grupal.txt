@@ -1,0 +1,8 @@
+Proceso sin_titulo
+	definir alim1, alim2, cant_esp1, cant_esp2 como real;
+	Escribir "Ingrese las unidades del alimento 1 y las unidades del alimento 2 seguidamente";
+	Leer alim1,alim2;
+	cant_esp1 <- trunc ( 1*((alim1 - 10* alim1 + 5 * alim2)/7) + 5 * ((2 * alim1 - 1 * alim2)/7));
+	cant_esp2 <- trunc (2 * ((alim1 - 10 * alim1 + 5 * alim2)/7) + 3 * ((2 * alim1 - 1 * alim2)/7));
+	Escribir "La cantidad de peces de cada especie alimentados son: ",cant_esp1," de la especie 1 y   ", cant_esp2 , "  para la especie 2 ";
+FinProceso
